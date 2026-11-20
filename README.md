@@ -1,45 +1,45 @@
-# Cadre Technique Consent Mode v2 & Lignes Directrices CNIL | TAVARDT France
+# Framework Consent Mode v2 & Conformité CNIL / RGPD | TAVARDT France
 
-[![Validador de Consentimento](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-France-00C853.svg)](https://ag.tavardt.com/fr/cybersecurite/)
+[![Diagnostic%20Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
+[![Juridiction](https://img.shields.io/badge/Juridiction-France-00C853.svg)](https://ag.tavardt.com/fr/cybersecurite/)
 
-Implémentation technique de Google Consent Mode v2, blocage des traceurs non essentiels et conformité aux lignes directrices de la CNIL et du RGPD en France.
+Implémentation technique de Google Consent Mode v2, blocage préalable des traceurs et respect des lignes directrices de la CNIL et du RGPD en France.
 
-Desenvolvido e mantido pela divisão de privacidade digital e engenharia de dados da **[TAVARDT France](https://ag.tavardt.com/fr/)**.
+Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **[TAVARDT France](https://ag.tavardt.com/fr/)**.
 
 ---
 
 ## 1. Architecture et Ordre d'Exécution
 
-Conformément aux exigences de la CNIL, ce fichier doit être inséré dans la section <head> de votre site web immédiatement avant le conteneur Google Tag Manager :
+Conformément aux recommandations de la CNIL, intégrez ce code dans le <head> avant le conteneur Google Tag Manager :
 
 ```html
 <script src="consent-mode-v2.js"></script>
-<!-- O contentor do Google Tag Manager ou scripts de medição seguem aqui -->
+<!-- Google Tag Manager / measurement scripts execute here -->
 ```
 
 ---
 
 ## 2. Fonctionnalités Techniques Déployées
 
-* **Refus et Blocage par Défaut:** Configure ad_storage, analytics_storage et ad_user_data sur 'denied' dès la première seconde de chargement.
-* **Mise à Jour Événementielle du Consentement:** Expose la fonction window.tavardtUpdateConsent() émettant l'événement tavardt_consent_updated dans le dataLayer.
-* **Caviardage des Identifiants Publicitaires:** Active ads_data_redaction pour supprimer les identifiants de clic en l'absence de consentement.
-* **Liaison Interdomaines Sécurisée:** Configure url_passthrough pour préserver l'attribution sans déposer de cookies illicites.
+* **Refus Strict par Défaut:** ad_storage et analytics_storage initialisés en 'denied' sans traceurs résiduels.
+* **Mise à Jour Pilotée par Événement:** Fonction window.tavardtConsent.update() couplée aux signaux de la CMP.
+* **Anonymisation des Identifiants Publicitaires:** Activation automatique du paramètre ads_data_redaction.
+* **Transmission Sécurisée Hors Traceurs:** Configuration native de url_passthrough pour les besoins de mesure agrégée.
 
 ---
 
 ## 3. Checklist de Conformité Technique
 
-Consulte a lista detalhada de requisitos técnicos para este país:
+Consultez la liste des exigences techniques pour la France :
 
-* [Checklist Técnico de Conformidade](checklist.md)
+* [Checklist](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
 
 ---
 
 ## 4. Outils de Diagnostic en Ligne (France)
 
-Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramentas online verificadas:
+Évaluez la résilience de vos applications publiques à l'aide des outils en ligne TAVARDT :
 
 * [Validateur Consent Mode v2 et RGPD](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
 * [Analyseur d'En-têtes HTTP de Sécurité](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
@@ -49,6 +49,6 @@ Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramenta
 
 ---
 
-## 5. Conseil et Gouvernance des Balises
+## 5. Conseil et Remédiation Technique
 
-Pour des audits de conformité CNIL, la sécurisation de vos conteneurs GTM et l'optimisation de vos mesures en France, contactez **[TAVARDT France](https://ag.tavardt.com/fr/contact/)**.
+Pour un audit de vos conteneurs de tags et la mise en conformité CNIL de vos plateformes en France, contactez **[TAVARDT France](https://ag.tavardt.com/fr/contact/)**.
