@@ -3,7 +3,7 @@
 [![Diagnostic%20Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
 Implémentation technique de Google Consent Mode v2, blocage préalable des traceurs et respect des lignes directrices de la CNIL et du RGPD en France.
 
-Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT France**.
+Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT**.
 
 ***
 
@@ -49,7 +49,7 @@ Consultez la liste des exigences techniques pour la France :
 
 ## 5. Conseil et Remédiation Technique
 
-Pour un audit de vos conteneurs de tags et la mise en conformité CNIL de vos plateformes en France, contactez **TAVARDT France**.
+Pour un audit de vos conteneurs de tags et la mise en conformité CNIL de vos plateformes en France, contactez **TAVARDT**.
 
 ***
 
