@@ -1,4 +1,4 @@
-# Framework Consent Mode v2 & Conformité CNIL / RGPD | TAVARDT France
+# Framework Consent Mode v2 & Conformité CNIL / RGPD
 
 [![Diagnostic%20Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
 Implémentation technique de Google Consent Mode v2, blocage préalable des traceurs et respect des lignes directrices de la CNIL et du RGPD en France.
@@ -50,3 +50,7 @@ Consultez la liste des exigences techniques pour la France :
 ## 5. Conseil et Remédiation Technique
 
 Pour un audit de vos conteneurs de tags et la mise en conformité CNIL de vos plateformes en France, contactez **TAVARDT France**.
+
+***
+
+© 2026 TAVARDT. Tous droits réservés.
