@@ -1,6 +1,9 @@
 # Framework Consent Mode v2 & Conformité CNIL / RGPD
 
-[![Diagnostic%20Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
+[![Licence : MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Diagnostic Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-yellow.svg)](https://nodejs.org/)
+
 Implémentation technique de Google Consent Mode v2, blocage préalable des traceurs et respect des lignes directrices de la CNIL et du RGPD en France.
 
 Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT**.
@@ -58,6 +61,11 @@ Pour un audit de vos conteneurs de tags et la mise en conformité CNIL de vos pl
 * **Portail Entreprise:** https://ag.tavardt.com/fr/
 * **Suite de Diagnostic:** https://tools.tavardt.com/fr/
 * **Contact Technique:** https://ag.tavardt.com/fr/contact/
+
+***
+
+### Licence
+Distribué sous la licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ***
 
