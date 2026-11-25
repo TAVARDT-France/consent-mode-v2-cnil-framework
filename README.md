@@ -28,32 +28,23 @@ Conformément aux recommandations de la CNIL, intégrez ce code dans le <head> a
 
 ***
 
-## 3. Checklist de Conformité Technique
-
-Consultez la liste des exigences techniques pour la France :
-
-* Checklist
-
-***
-
-## 4. Outils de Diagnostic en Ligne (France)
+## 3. Outils de Diagnostic en Ligne (France)
 
 Évaluez la résilience de vos applications publiques à l'aide des outils en ligne TAVARDT :
 
 * [Analyseur d'En-têtes HTTP de Sécurité](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
 * [Vérificateur DMARC et Protection de Domaine](https://tools.tavardt.com/fr/verificateur-dmarc-email/)
 * [Détecteur de Fichiers Sensibles Exposés](https://tools.tavardt.com/fr/scanner-fichiers-exposes/)
-* [Portail Complet d'Outils Techniques](https://tools.tavardt.com/fr/)
 
 ***
 
-## 5. Conseil et Remédiation Technique
+## 4. Conseil et Remédiation Technique
 
 Pour un audit de vos conteneurs de tags et la mise en conformité CNIL de vos plateformes en France, contactez **TAVARDT**.
 
 ***
 
-## Liens Utiles
+## 5. Liens Utiles
 
 * **Portail Entreprise:** https://ag.tavardt.com/fr/
 * **Suite de Diagnostic:** https://tools.tavardt.com/fr/
